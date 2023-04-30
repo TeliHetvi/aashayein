@@ -1,0 +1,64 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #989898;
+
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+input[type=text], input[type=password] , input[type=email], input[type=date]{
+  width : 70%;
+  padding: 5px 8px;
+  margin: 9px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: A52A2A;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 170px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 49.7%;
+  padding: 1px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("h6.jpg");
+  
+  /* Add the blur effect */
+ /* filter: blur(1px);
+  -webkit-filter: blur(1px);*/  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto ;
+}
